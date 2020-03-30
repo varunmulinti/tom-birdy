@@ -4375,7 +4375,7 @@ footer {}
     box-shadow: none;
 }
 .dropdown-menu{
-    margin-top: -15px !important;
+  width: 100%;
     background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
     padding: 0px;
 }
@@ -7079,4 +7079,49 @@ footer {}
 
 .sc-blog-carousel {
   padding: 0 0 70px;
+}
+.custom-top-nav{
+  background-color: rgb(32, 68, 224);
+  padding: 0px 15px;
+  min-height: 50px;
+}
+.custom-top-nav .container{
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  padding: 8px 15px;
+}
+.custom-top-nav-secondary{
+  padding: 0px 15px;
+}
+.custom-top-nav-secondary .container{
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  background-color: white;
+  padding: 0px 0px 0px 15px;
+}
+.v-hidden{
+  visibility: hidden;
+}
+.navbar-brand img{
+  width: 200px;
+  position: absolute;
+  top: 18px;
+  z-index: 1;
+}
+.custom-top-nav .nav-link{
+  color: white;
+  line-height: 1.4;
+  font-size: 15px;
+  font-weight: 400;
+}
+.custom-top-nav-secondary .nav-link{
+  font-size: 16px;
+  padding: 8px;
+}
+.custom-top-nav-secondary .nav-link.cart{
+  padding: 8px 20px;
+  background-color: rgb(32, 68, 224);
+  color: white;
+}
+.custom-top-nav-secondary .nav-link.cart img{
+  margin-right: 8px;
+  margin-bottom: 4px;
 }
