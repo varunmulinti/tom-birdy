@@ -3053,7 +3053,7 @@ header {}
 footer {}
 
 .footer-top-area {
-  background: #2044e0 none repeat scroll 0 0;
+  background-color: #f2f2f2;
   padding: 59px 0 31px;
 }
 
@@ -3062,12 +3062,12 @@ footer {}
 }
 
 .footer-widget .title {
-  color: #fff;
+  color: #000;
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 0;
   line-height: 25px;
-  margin: 0 -11px 31px;
+  margin: 0 -11px 15px;
 }
 
 .fw-info {}
@@ -3092,19 +3092,19 @@ footer {}
 }
 
 .fw-info .address h5 {
-  color: #fff;
+  color: #000;
   font-weight: 500;
   letter-spacing: 0;
   line-height: 20px;
 }
 
 .fw-info .address h5 span {
-  color: #ffffff;
+  color: #000;
   margin-right: 6px;
 }
 
 .fw-info .address p {
-  color: #fff;
+  color: #000;
   line-height: 24px;
 }
 
@@ -3147,7 +3147,7 @@ footer {}
 }
 
 .fw-categories .list li a {
-  color: #fff;
+  color: #000;
   display: block;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
@@ -7081,7 +7081,7 @@ footer {}
   padding: 0 0 70px;
 }
 .custom-top-nav{
-  background-color: rgb(32, 68, 224);
+  background-color: rgba(32, 68, 224,0.9);
   padding: 0px 15px;
   min-height: 50px;
 }
